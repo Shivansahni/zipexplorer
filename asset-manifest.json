@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Shivansahni/zipexplorer.git/static/js/main.1352fe84.chunk.js",
+    "main.js.map": "/Shivansahni/zipexplorer.git/static/js/main.1352fe84.chunk.js.map",
+    "runtime-main.js": "/Shivansahni/zipexplorer.git/static/js/runtime-main.755f63d5.js",
+    "runtime-main.js.map": "/Shivansahni/zipexplorer.git/static/js/runtime-main.755f63d5.js.map",
+    "static/js/2.f9788478.chunk.js": "/Shivansahni/zipexplorer.git/static/js/2.f9788478.chunk.js",
+    "static/js/2.f9788478.chunk.js.map": "/Shivansahni/zipexplorer.git/static/js/2.f9788478.chunk.js.map",
+    "index.html": "/Shivansahni/zipexplorer.git/index.html",
+    "static/js/2.f9788478.chunk.js.LICENSE.txt": "/Shivansahni/zipexplorer.git/static/js/2.f9788478.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.755f63d5.js",
+    "static/js/2.f9788478.chunk.js",
+    "static/js/main.1352fe84.chunk.js"
+  ]
+}
