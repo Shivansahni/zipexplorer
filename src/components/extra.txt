@@ -1,0 +1,39 @@
+ <TextContainer>
+        <Logo src={"/icons/rar-file.png"} />
+        <h4>Unzip files online</h4>
+        The Zip file format is the most popular archive file format. This format
+        supports lossless data compression. A zip file may contain one or more
+        files or directories.
+      </TextContainer>
+      <TextContainer>
+        <Logo src={"/icons/zip.png"} />
+        <h4>Unrar online</h4>
+        RAR is a proprietary archive file format. This format supports data
+        compression, error recovery and file spanning! RAR files have the file
+        extensions .rar, .rev, .r00, .r01,... This tool allows to unzip rar
+        files online. You can easily and quickly extract rar file online.
+      </TextContainer>
+
+
+          <Logo src={"/icons/tar-file.png"} />
+      <TextContainer>
+        <h4>Untar online</h4>
+        Tar is another format,it is typically used on unix and linux systems to
+        consolidate multiples files into one file.This tool also allows to
+        extract tar file online.
+      </TextContainer>
+
+
+
+       <Container {...getRootProps()}>
+      <Logo src={"/icons/zip file.png"} />
+      <input {...getInputProps()} type="file" onChange={this.onFileChange} />
+      {isDragActive ? (
+        <p>Drop the files here ...</p>
+      ) : (
+        <p>Drag 'n' drop some files here, or click to select files</p>
+      )}
+      {this.fileData()}
+    </Container>
+  );
+}
